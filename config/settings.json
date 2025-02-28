@@ -1,0 +1,8 @@
+{
+    "email_account": "default",
+    "check_interval": 300,
+    "log_level": "info",
+    "max_emails_per_check": 50,
+    "process_unread_only": true,
+    "delete_after_unsubscribe": false
+}
