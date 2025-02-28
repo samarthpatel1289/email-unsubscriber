@@ -1,45 +1,57 @@
-# Email Unsubscriber
+# Email Unsubscriber Chrome Extension
 
-A Python application that automatically detects and processes unsubscribe options in emails using the Gmail API.
+## Core Components
 
-## Features
+1. **Chrome Extension**
+   - Manifest configuration
+   - Popup UI for controls
+   - Background service
+   - Content script for email interaction
 
-- Reads emails from Gmail using the official API
-- Detects unsubscribe options in email headers and body
-- Processes both HTTP and mailto unsubscribe links
-- Runs on demand or can be scheduled via cron
+2. **Email Processing**
+   - Gmail API integration
+   - Email parsing
+   - Unsubscribe link detection
+   - Rate limiting
 
-## Installation
+3. **Unsubscribe Automation**
+   - HTTP request handling
+   - Form filling
+   - Captcha solving
+   - Success tracking
 
-1. Clone the repository
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Set up Gmail API credentials:
-   - Go to the [Google Cloud Console](https://console.cloud.google.com/)
-   - Create a new project and enable the Gmail API
-   - Create OAuth 2.0 credentials and download the credentials.json file
-   - Place credentials.json in the project root
+## Development Tasks
 
-## Usage
+### Chrome Extension
+- [ ] Setup basic extension structure
+- [ ] Implement authentication flow
+- [ ] Create popup UI
+- [ ] Add background service
 
-Run the application:
-```bash
-python fetch_emails.py
-```
+### Email Processing
+- [ ] Integrate Gmail API
+- [ ] Implement email parsing
+- [ ] Add unsubscribe detection
+- [ ] Setup rate limiting
 
-The application will process your most recent emails and display any unsubscribe links found.
+### Unsubscribe Automation
+- [ ] Create HTTP request handler
+- [ ] Implement form filling
+- [ ] Add captcha solving
+- [ ] Setup success tracking
 
-## Configuration
+## Team Assignment
 
-Edit `config/settings.json` to configure:
-- Number of emails to process
-- Logging preferences
+Assign team members to each component:
 
-## Requirements
+### Chrome Extension
+- [ ] Task 1: 
+- [ ] Task 2: 
 
-- Python 3.8+
-- Gmail account
-- Internet connection
+### Email Processing
+- [ ] Task 1: 
+- [ ] Task 2: 
 
+### Unsubscribe Automation
+- [ ] Task 1: 
+- [ ] Task 2:
