@@ -42,3 +42,4 @@ Edit `config/settings.json` to configure:
 - Python 3.8+
 - Gmail account
 - Internet connection
+
