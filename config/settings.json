@@ -4,5 +4,15 @@
     "log_level": "info",
     "max_emails_per_check": 50,
     "process_unread_only": true,
-    "delete_after_unsubscribe": false
+    "delete_after_unsubscribe": false,
+    "gmail_api": {
+        "client_id": "",
+        "client_secret": "",
+        "project_id": "",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://oauth2.googleapis.com/token",
+        "redirect_uris": [
+            "http://localhost:8080/oauth2callback"
+        ]
+    }
 }
