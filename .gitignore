@@ -1,6 +1,13 @@
 # Credentials
-credentials.json
-token.json
+*.json
+
+# System
+.DS_Store
+
+# Project Specific
+logs/
+icons/
+config/
 
 # Python
 __pycache__/
